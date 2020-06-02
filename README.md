@@ -19,7 +19,7 @@ Attacks using discrete cosine transform (DCT) basis vectors are used in default.
 
 ![Non-targeted Attacks DCT](assets/plot_nontargeted_dct.png)
 
-Note: Perturbation is emphatically displayed for clarity.
+Left and right panels represent clean and adversarial images, respectively.  Note that Perturbation is emphatically displayed for clarity.
 
 Random pixel attaks are also available.
 ```
