@@ -21,7 +21,7 @@ Attacks using discrete cosine transform (DCT) basis vectors are used in default.
 
 Left and right panels represent clean and adversarial images, respectively.  Note that Perturbation is emphatically displayed for clarity.
 
-Random pixel attaks are also available.
+Random pixel attacks are also available.
 ```
 python run_demo_simba_single.py --attack px
 ```
