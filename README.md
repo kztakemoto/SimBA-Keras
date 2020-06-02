@@ -13,7 +13,7 @@ Code for SimBA is [here](https://github.com/kztakemoto/adversarial-robustness-to
 
 ### Non-targeted Attacks
 ```
-python run_demo_simba_single.py
+python run_demo_simba.py
 ```
 Attacks using discrete cosine transform (DCT) basis vectors are used in default.
 
@@ -23,13 +23,13 @@ Left and right panels represent clean and adversarial images, respectively.  Not
 
 Random pixel attacks are also available.
 ```
-python run_demo_simba_single.py --attack px
+python run_demo_simba.py --attack px
 ```
 ![Non-targeted Attacks pixel](assets/plot_nontargeted_pixel.png)
 
 ### Targeted Attacks
 ```
-python run_demo_simba_single.py --targeted
+python run_demo_simba.py --targeted
 ```
 Demo code considers targeted attacks to "ship".
 

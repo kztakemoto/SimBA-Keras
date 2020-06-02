@@ -72,7 +72,14 @@ def norm(x):
 fig, ax = plt.subplots(len(idx_sample_imgs), 3)
 for i in range(len(idx_sample_imgs)):
     logger.info('Craft attack on an image with SimBA')
-    adv_crafter = SimBA(classifier, attack=args.attack, order=args.order, epsilon=args.epsilon, max_iter=args.max_iter, freq_dim=args.freq_dim, targeted=args.targeted)
+    adv_crafter = SimBA(classifier,
+                        attack=args.attack,
+                        order=args.order,
+                        epsilon=args.epsilon,
+                        max_iter=args.max_iter,
+                        freq_dim=args.freq_dim,
+                        targeted=args.targeted)
+                        
     if args.targeted:
         x_test_adv = adv_crafter.generate(x_test[i].reshape(1,32,32,3), y=targeted_y.reshape(1,10))
     else:
