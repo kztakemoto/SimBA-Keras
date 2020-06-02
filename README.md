@@ -9,7 +9,7 @@ Demo uses the VGG-20 model for the CIFAR-10 dataset obtained from a GitHub repos
 ```
 pip install git+https://github.com/kztakemoto/adversarial-robustness-toolbox
 ```
-Code for SimBA is [here](https://github.com/kztakemoto/adversarial-robustness-toolbox/blob/master/art/attacks/evasion/simba.py). [nquntan](https://github.com/nquntan) and kaztakemoto implemented SimBA using [Adversarial Robustness 360 Toolbox](https://arxiv.org/abs/1807.01069) (ART) v1.1.
+Code for SimBA is [here](https://github.com/kztakemoto/adversarial-robustness-toolbox/blob/master/art/attacks/evasion/simba.py). [nquntan](https://github.com/nquntan) and kztakemoto implemented SimBA using [Adversarial Robustness 360 Toolbox](https://arxiv.org/abs/1807.01069) (ART) v1.1.
 
 ### Non-targeted Attacks
 ```
