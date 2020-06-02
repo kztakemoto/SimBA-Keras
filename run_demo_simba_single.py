@@ -83,13 +83,13 @@ for i in range(len(idx_sample_imgs)):
 
     logger.info('Plot the orignail image, perturbation, and adversarial image')
     ax[i][0].imshow(norm(x_test[i]))
-    plt.axis('off')
+    ax[i][0].axis('off')
     ax[i][0].set_title(label[np.argmax(y_test[i])])
     ax[i][1].imshow(norm(x_test_adv[0] - x_test[i]))
-    plt.axis('off')
+    ax[i][1].axis('off')
     ax[i][1].set_title("perturbation")
     ax[i][2].imshow(norm(x_test_adv[0]))
-    plt.axis('off')
+    ax[i][2].axis('off')
     ax[i][2].set_title(label[preds_adv[0]])
 
 plt.savefig('plot_simba_demo.png')
