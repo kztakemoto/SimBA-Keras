@@ -15,7 +15,7 @@ Code for SimBA is [here](https://github.com/kztakemoto/adversarial-robustness-to
 ```
 python run_demo_simba.py
 ```
-Attacks using discrete cosine transform (DCT) basis vectors are used in default.
+Demo code considers non-targeted attacks using discrete cosine transform (DCT) basis vectors in default.
 
 ![Non-targeted Attacks DCT](assets/plot_nontargeted_dct.png)
 
