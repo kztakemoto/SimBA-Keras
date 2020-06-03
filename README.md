@@ -19,7 +19,7 @@ Demo code considers non-targeted attacks using discrete cosine transform (DCT) b
 
 ![Non-targeted Attacks DCT](assets/plot_nontargeted_dct.png)
 
-Left and right panels represent clean and adversarial images, respectively.  Note that Perturbation is emphatically displayed for clarity.
+Left and right panels represent clean and adversarial images, respectively.  Note that perturbation is emphatically displayed for clarity.
 
 Random pixel attacks are also available.
 ```
