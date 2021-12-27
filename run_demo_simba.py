@@ -4,7 +4,7 @@ from keras.layers import Input
 import numpy as np
 import logging
 import argparse
-from art.classifiers import KerasClassifier
+from art.estimators.classification import KerasClassifier
 from art.attacks.evasion import SimBA
 import vgg_model
 import matplotlib.pyplot as plt
